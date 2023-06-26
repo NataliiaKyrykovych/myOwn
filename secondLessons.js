@@ -491,7 +491,7 @@ const b = 180;
 
 // const login = prompt("Тут має бути ЛОГІН");
 // if(!login){
-//   console.log("Скасовано");  
+//   console.log("Скасовано");
 // }else if(login === "Адмін"){
 //     const password = prompt("Тут має бути ПАРОЛЬ")
 //     console.log(password === "Я адмін" ? "Доброго дня!" : "Невірний пароль");
@@ -511,3 +511,5 @@ const b = 180;
 
 // const str = 'М\'який'
 // console.log(str);
+
+
