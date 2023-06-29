@@ -53,7 +53,7 @@
 // console.log(array);
 
 
-// 
+//
 
 // let value = 1;
 // let test = value;
@@ -87,18 +87,19 @@
 // // array ='string';
 
 // array.push(4)
-// // array.pop();
-// // array.length = 10;
+// array.pop();
+// array.length = 10;
 // console.log(array);
 
 // Перерва до 21.00
 
 
-// 
+//
 // const str = 'Hello world I`m learning JS';
 // const arr = str.split('-');
 // console.log(arr);
-
+//спліт з рядка перетворює в масив, вказуємо по чому будемо розділяти, наприклад пробіл
+//джоін навпаки з масиву перетворює в рядок
 // // const result = arr.reverse().join(' ')
 
 
@@ -112,7 +113,7 @@
 
 
 // const arr = ['hello', 'wolrd'];
-// const idx = arr.indexOf('wolrd');
+// const idx = arr.indexOf('wolrd'); //шукає індекс елемента в масиві
 
 // if (arr.indexOf('wolrd') === -1) {
 //     console.log("NO");
@@ -129,14 +130,14 @@
 // }
 //      3           4
 // const arr = ['hello', 'wolrd'];
-// push pop
+// push pop //ці методи додають або видаляють елементи з кінця масиву
 // arr.push(1, 'a',[1,2])
 // arr.pop()
 // arr.pop()
 // arr.pop()
 // console.log(arr);
 
-// shift unshift
+// shift unshift //додають або видаляють на початку масиву
 
 //      0   1      2
 // arr.unshift(1, 'a', [1, 2])
@@ -145,13 +146,14 @@
 // // arr.shift();
 // // console.log(arr);
 
-// // slice
+// // slice //вирізає елементи з масиву, але фактично робить їх копію і створює новий масив
 // const result = arr.slice(1,3);
 // console.log('result',result);
 // console.log('arr',arr);
 
 // const arr = ['hello', 'world', 'js'];
-// // splice
+// // splice //видаляє елементи з існуючого масиву не створюючи копію, а також можна додати елемент
+            // 0 не видаляє, а просто додає, 1,2,3-це скільки елементів вирізати
 
 // // arr.splice(1, 1, 'from', 'react', 'node')
 // // console.log(arr);
@@ -161,7 +163,7 @@
 // console.log('result',result);
 
 
-// concat
+// concat //поєднує декілька масивів в 1
 
 // const arr = [1, 2, 3];
 // const arr1 = [4, 5];
