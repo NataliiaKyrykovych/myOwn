@@ -278,7 +278,7 @@ const langs = ['python', 'javascript', 'c++', 'haskel', 'php', 'ruby'];
 
 
 // Вірні варіанти
-// 1 метод бульбашка 
+// 1 метод бульбашка
 // https://www.youtube.com/watch?v=-_0dD2shabQ
 // http://xn--80adth0aefm3i.xn--j1amh/%D0%BF%D1%83%D0%B1%D0%BB%D1%96%D0%BA%D0%B0%D1%86%D1%96%D1%8F/21
 // for (let i = 0; i < langs.length; i++) {
@@ -321,3 +321,22 @@ const langs = ['python', 'javascript', 'c++', 'haskel', 'php', 'ruby'];
 // let a = 9;
 
 // console.log(a || x && y);
+
+
+
+
+// function checkPassword(password) {
+//   const ADMIN_PASSWORD = "jqueryismyjam";
+//   // Change code below this line
+
+  
+//   if (password === ADMIN_PASSWORD) {
+//     return  Welcome!;
+//   } 
+//   {
+//   return  'Access denied, wrong password!';
+//   }
+
+
+//   // Change code above this line
+// }
